@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_change"
+            android:icon="@drawable/ic_menu_change"
+            android:title="修改班级" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_menu_add"
+            android:title="添加课程" />
+        <item
+            android:id="@+id/nav_refresh"
+            android:icon="@drawable/ic_menu_refresh"
+            android:title="修改课程" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="关于课表" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_contact"
+            android:title="联系作者" />
+    </group>
+
+</menu>
